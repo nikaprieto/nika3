@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#gameCanvas {
+    border: 2px solid black;
+}
+
+img {
+    border-radius: 50%; /* Hace la imagen redonda */
+    width: 50px; /* Tamaño ajustado a la mitad del tamaño actual */
+    height: 50px; /* Mantiene el tamaño igual para la forma redonda */
+    display: none; /* Oculta la imagen original, ya que se dibujará en el canvas */
+}
